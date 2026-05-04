@@ -40,5 +40,9 @@ void mahasiswa::printALL() {
 }
 
 int main(){
-    
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("budi jatmiko");
+    mahasiswa :: setNIM(9);
+    mahasiswa mhs3("andi janu");
+    mahasiswa mhs4("joko wahono");
 }
