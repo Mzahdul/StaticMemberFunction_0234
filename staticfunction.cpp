@@ -45,4 +45,9 @@ int main(){
     mahasiswa :: setNIM(9);
     mahasiswa mhs3("andi janu");
     mahasiswa mhs4("joko wahono");
+
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();    
 }
