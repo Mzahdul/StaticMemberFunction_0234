@@ -50,4 +50,7 @@ int main(){
     mhs2.printALL();
     mhs3.printALL();
     mhs4.printALL();    
+
+    cout << "Akses dari luar project : " << mahasiswa::getNIM() << endl;
+    system("pause");
 }
