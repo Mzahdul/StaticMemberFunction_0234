@@ -15,4 +15,10 @@ class buku{
 };
 
 int main()
-{}
+{
+    buku bukunya;
+    // bukunya.setJudul("matematika");
+    // cout << bukunya.getJudul();
+    cout<<bukunya.setJudul("matematika").getJudul();
+    return 0;
+}
