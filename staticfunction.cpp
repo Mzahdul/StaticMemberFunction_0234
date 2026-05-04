@@ -9,4 +9,22 @@ private:
 public:
     int id;
     string nama;
-}
+
+    void setID();
+    void printALL();
+
+    static void setNIM(int pnim) {
+        nim = pnim;
+    };
+
+    static int getNIM() {
+        return nim;
+    }
+
+    mahasiswa (string pnama) :nama(pnama) {
+        setID();
+    };
+    
+};
+
+int ,mahasiswa::nim = 0;
