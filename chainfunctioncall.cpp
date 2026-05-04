@@ -11,5 +11,8 @@ class buku{
     string getJudul(){
         return this->judul;
     }
-    
+
 };
+
+int main()
+{}
