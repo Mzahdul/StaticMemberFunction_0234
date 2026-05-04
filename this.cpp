@@ -11,5 +11,9 @@ class buku{
     
 };
 
-int maint()
-{}
+int main()
+{
+    buku bukunya;
+    cout<<bukunya.setget("matematika");
+    return 0;
+}
